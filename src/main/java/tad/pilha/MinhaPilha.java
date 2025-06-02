@@ -15,7 +15,7 @@ package tad.pilha;
 
 public class MinhaPilha implements PilhaIF<Integer> {
 
-	private int tamanho = 10;
+	private int tamanho = 5;
 	private Integer[] meusDados = null;
 	private int topo = -1;
 
@@ -48,6 +48,26 @@ public class MinhaPilha implements PilhaIF<Integer> {
 			throw new PilhaCheiaException();
 		}
 		meusDados[++topo] = item;
+	}
+
+	@Override
+	public boolean equals(Object obj) {
+		if (this == obj)
+			return true;
+		if (obj == null || getClass() != obj.getClass())
+			return false;
+
+		MinhaPilha other = (MinhaPilha) obj;
+
+		if (this.topo != other.topo)
+			return false;
+
+		for (int i = 0; i <= topo; i++) {
+			if (!this.meusDados[i].equals(other.meusDados[i]))
+				return false;
+		}
+
+		return true;
 	}
 
 	/**
