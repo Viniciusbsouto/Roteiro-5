@@ -1,18 +1,17 @@
 package tad.fila;
 
 /**
- * Autor: Vinicius Bezerra Souto
  * Disciplina: LEDA
+ * Autor: Vinicius Bezerra Souto
  * Roteiro: Implementação Fila com arrays
  * 
- * 
- * Classe que implementa uma fila circular utilizando um array estático de
- * inteiros (Integer). A fila possui tamanho fixo, definido no momento de sua
- * criação. Caso esteja cheia, qualquer tentativa de inserção resultará em uma
- * exceção.
- * Implementa a interface FilaIF, oferecendo operações básicas como enfileirar,
- * desenfileirar e verificação do estado da fila.
- * 
+ * Implementação de uma Fila Circular que utiliza um array estático de
+ * tamanho fixo para armazenar elementos do tipo Integer.
+ * A capacidade da fila é definida no momento da sua instanciação.
+ * Esta classe implementa a interface FilaIF, fornecendo as operações
+ * básicas de fila (enfileirar, desenfileirar) e métodos de verificação
+ * de estado, lançando uma exceção caso haja tentativa de enfileirar
+ * quando a fila estiver cheia.
  * 
  */
 

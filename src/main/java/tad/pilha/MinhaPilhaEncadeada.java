@@ -1,15 +1,18 @@
 package tad.pilha;
 
 /**
- * Autor: Vinicius Bezerra Souto
  * Disciplina: LEDA
+ * Autor: Vinicius Bezerra Souto
  * Roteiro: Implementação de Pilha Encadeada
  * 
- * Implementação de uma pilha utilizando uma estrutura encadeada (lista ligada).
- * Cada elemento é armazenado em um nó que mantém uma referência para o próximo.
- * Suporta operações básicas de pilha, como empilhar, desempilhar, acessar o
- * topo
- * e verificar se a pilha está vazia.
+ * /**
+ * Esta classe implementa uma estrutura de dados do tipo Pilha (Stack)
+ * utilizando uma lista encadeada.
+ * Cada elemento da pilha é armazenado em um "nó" que mantém uma referência
+ * para o próximo nó na sequência, permitindo uma gestão dinâmica do espaço.
+ * Ela oferece as operações essenciais de uma pilha: adicionar (empilhar),
+ * remover (desempilhar), consultar o elemento no topo e verificar se a pilha
+ * está vazia.
  */
 
 public class MinhaPilhaEncadeada implements PilhaIF<Integer> {

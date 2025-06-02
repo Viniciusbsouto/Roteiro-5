@@ -1,13 +1,16 @@
 package tad.pilha;
 
 /**
- * Autor: Vinicius Bezerra Souto
  * Disciplina: LEDA
+ * Autor: Vinicius Bezerra Souto
  * Roteiro: Implementação de Pilha com arrays
  * 
- * Implementação de uma pilha utilizando um array com tamanho fixo.
- * Oferece operações básicas de pilha, como empilhar, desempilhar,
- * acesso ao topo e verificação de pilha vazia.
+ * Esta classe implementa uma estrutura de dados do tipo Pilha (Stack)
+ * utilizando um array de tamanho fixo.
+ * Ela fornece as operações fundamentais de uma pilha, como adicionar elementos
+ * ao topo (empilhar), remover elementos do topo (desempilhar),
+ * consultar o elemento no topo sem removê-lo, e verificar se a pilha está
+ * vazia.
  */
 
 public class MinhaPilha implements PilhaIF<Integer> {

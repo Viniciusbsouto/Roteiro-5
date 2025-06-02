@@ -1,12 +1,14 @@
 package tad.listasEncadeadas;
 
 /**
- * Autor: Vinicius Bezerra Souto
  * Disciplina: LEDA
+ * Autor: Vinicius Bezerra Souto
  * Roteiro: Implementação de uma Lista Duplamente Encadeada
  * 
- * Implementação genérica de uma lista duplamente encadeada que utiliza
- * nós sentinela para simplificar as operações de inserção, remoção e navegação.
+ * Implementação de uma Lista Duplamente Encadeada genérica que emprega
+ * nós sentinela (cabeça e cauda). Essa abordagem simplifica a lógica
+ * das operações, eliminando casos especiais para inserções e remoções
+ * no início ou fim da lista, e otimiza a navegação.
  */
 
 public class ListaDuplamenteEncadeadaImpl<T extends Comparable<T>> implements ListaDuplamenteEncadeadaIF<T> {

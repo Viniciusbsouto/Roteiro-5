@@ -1,19 +1,16 @@
 package tad.conjuntoDinamico;
 
 /**
- * Autor: Vinicius Bezerra Souto
  * Disciplina: LEDA
+ * Autor: Vinicius Bezerra Souto
  * Roteiro: Implementação de Conjunto Dinâmico com Array
  * 
- * Esta classe implementa a interface ConjuntoDinamicoIF utilizando um array
- * dinâmico
- * para armazenar elementos do tipo Integer. O conjunto oferece suporte a
- * operações
- * como inserção, busca, remoção, além de funcionalidades para encontrar o
- * predecessor,
- * sucessor, mínimo e máximo. O array é automaticamente redimensionado sempre
- * que
- * sua capacidade é atingida.
+ * Implementa a interface ConjuntoDinamicoIF, utilizando um array que se
+ * redimensiona automaticamente para armazenar elementos do tipo Integer.
+ * Esta classe oferece funcionalidades completas para manipulação de conjuntos,
+ * incluindo operações de inserção, busca e remoção.
+ * Além disso, suporta consultas para identificar o predecessor, sucessor,
+ * menor e maior elemento do conjunto.
  */
 
 public class MeuConjuntoDinamico implements ConjuntoDinamicoIF<Integer> {

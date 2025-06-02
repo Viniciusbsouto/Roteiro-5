@@ -1,8 +1,8 @@
 package tad.conjuntoDinamico;
 
 /**
- * Autor: Vinicius Bezerra Souto
  * Disciplina: LEDA
+ * Autor: Vinicius Bezerra Souto
  * Roteiro: Implementação de Conjunto Dinâmico Encadeado com lista encadeada
  * (simples ou duplamente encadeada)
  * 

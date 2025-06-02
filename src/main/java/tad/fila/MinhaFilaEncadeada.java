@@ -1,15 +1,17 @@
 package tad.fila;
 
 /**
- * Autor: Vinicius Bezerra Souto
  * Disciplina: LEDA
+ * Autor: Vinicius Bezerra Souto
  * Roteiro: Implementação Fila com listas encadeadas
  * 
- * Classe que implementa uma fila dinâmica encadeada de inteiros (Integer).
- * Diferente das filas com tamanho fixo, esta estrutura pode crescer
- * dinamicamente à medida que novos elementos são inseridos, estando limitada
- * apenas pela memória disponível. Implementa a interface FilaIF, fornecendo
- * operações básicas de fila, como enfileirar, desenfileirar e verificação.
+ * Implementação de uma Fila Dinâmica utilizando uma estrutura encadeada para
+ * armazenar
+ * elementos do tipo Integer. Diferente das filas com capacidade fixa, esta
+ * estrutura cresce ou diminui conforme a necessidade, limitada apenas pela
+ * memória disponível. A classe implementa a interface FilaIF, oferecendo as
+ * operações básicas de fila, como enfileirar (enqueue), desenfileirar (dequeue)
+ * e verificações de estado.
  */
 
 public class MinhaFilaEncadeada implements FilaIF<Integer> {

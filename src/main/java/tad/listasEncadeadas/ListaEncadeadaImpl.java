@@ -3,26 +3,27 @@ package tad.listasEncadeadas;
 import tad.util.Conversor;
 
 /**
- * Autor: Vinicius Bezerra Souto
  * Disciplina: LEDA
+ * Autor: Vinicius Bezerra Souto
  * Roteiro: Implementação de uma Lista Encadeada
  * 
- * Implementação genérica de uma lista simplesmente encadeada com sentinelas de
- * cabeça e cauda. Suporta operações básicas como inserção, remoção, busca e
- * conversão para array.
+ * 
+ * Esta classe oferece uma implementação genérica de uma Lista Simplesmente
+ * Encadeada,
+ * otimizada com o uso de nós sentinela (cabeça e cauda).
  *
- * Objetivo:
- * Fornecer uma estrutura de lista encadeada para armazenar elementos
- * comparáveis,
- * permitindo manipulação eficiente e ordenada dos dados.
- *
- * Principais características:
- * - Utiliza nós com referência para o próximo elemento (encadeamento simples).
- * - Permite inserção no final, remoção, busca, e acesso a sucessores e
- * predecessores.
- * - Inclui métodos para impressão da lista em ordem direta e inversa.
- * - Oferece verificação de lista vazia e consulta ao tamanho atual da lista.
- *
+ * **Características Principais:**
+ * - **Estrutura:** Utiliza nós que referenciam apenas o próximo elemento na
+ * sequência (encadeamento simples).
+ * - **Funcionalidades:** Suporta operações essenciais como inserção, remoção,
+ * busca e conversão da lista para um array.
+ * - **Sentinelas:** A presença de nós sentinela simplifica a lógica interna,
+ * eliminando a necessidade de tratar casos de borda (lista vazia,
+ * inserção/remoção no início/fim) de forma especial.
+ * - **Utilidade:** Ideal para armazenar e manipular coleções de elementos
+ * comparáveis de forma eficiente, mantendo a ordem de inserção ou uma ordem
+ * específica conforme as operações.
+ * 
  */
 
 public class ListaEncadeadaImpl<T extends Comparable<T>> implements ListaEncadeadaIF<T> {
